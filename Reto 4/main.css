@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+}
+.total {
+    margin: auto;
+}
+
+/***********************************************************/
+
+                /* EDITANDO EL ENCABEZADO*/
+
+.header{
+    margin-left: 100px;
+
+    background-image: url("../images/bg-hero-desktop.svg");
+}
+.uno{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.uno button {
+    border: 1px solid hsl(190, 15%, 92%);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /**segunda seccion del encabezado*/
+
+.dos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+   
+}
+
+.dos_texto{
+    margin-top: 50px;  
+    padding: 50px;
+    text-align: center;
+}
+
+.dos_texto h2 {
+    font-size: 50px;
+}
+
+.dos_texto p {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.dos_texto button {
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border-radius: 15px;
+
+}
+
+/***********************************************************/
+            /**EDITANDO LAS HABILIDADES*/
+
+.contenedor {
+    margin: 50px;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*SECCION GROW*/
+
+.grow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px;
+   
+}
+
+.grow_texto {
+    padding: 150px;
+
+}
+
+.grow figure img{
+    width: 500px;    
+}
+
+/*SECCION FLOW*/
+
+.flowing {
+    display: flex;
+    justify-content: space-between;
+    background-color:;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px;
+}
+
+.flowing_texto {
+    padding: 150px;
+}
+
+.flowing figure img {
+    width: 500px;    
+}
+
+/*SECCION USERS*/
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    background-color:;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px;
+}
+
+.users_texto {
+    padding: 150px;
+}
+
+.users figure img {
+    width: 500px;  
+}
+/***********************************************************/
+            /*SECCION READY */
+
+.ready {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 450px;
+    height: 150px;
+    border-radius: 40px;
+    flex-direction:column-reverse;
+    justify-content: center;
+    margin-left: 35%;
+    background-color: hsl(193, 100%, 96%);
+    
+ 
+}
+
+.ready div{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}     
+
+.ready h2 {
+
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.ready button{
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    border-radius: 35px;
+}
+
+/***********************************************************/
+                /*SECCION FINAL*/
+
+.seccion_final{
+    background-color: hsl(209, 92%, 24%);
+    margin-top: 150px;
+}
+
+.fin {
+    padding: 150px;
+
+}
